@@ -1,0 +1,6 @@
+Single 1 4.50 2.75
+Single 2 5.50 3.25
+Single 3 6.50 4.00
+Booklet 1 18.50 11.00
+Booklet 2 21.50 13.00
+Booklet 3 25.75 15.50

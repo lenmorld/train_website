@@ -1,0 +1,263 @@
+% phpMyAdmin LaTeX Dump
+% version 4.5.1
+% http://www.phpmyadmin.net
+%
+% Host: 127.0.0.1
+% Generation Time: Dec 04, 2015 at 10:49 PM
+% Server version: 10.1.8-MariaDB
+% PHP Version: 5.5.30
+% 
+% Database: 'train'
+% 
+
+%
+% Structure: purchase
+%
+ \begin{longtable}{|l|c|c|c|l|l|l|} 
+ \caption{Structure of table purchase} \label{tab:purchase-structure} \\
+ \hline \multicolumn{1}{|c|}{\textbf{Column}} & \multicolumn{1}{|c|}{\textbf{Type}} & \multicolumn{1}{|c|}{\textbf{Null}} & \multicolumn{1}{|c|}{\textbf{Default}} & \multicolumn{1}{|c|}{\textbf{Links to}} & \multicolumn{1}{|c|}{\textbf{Comments}} & \multicolumn{1}{|c|}{\textbf{MIME}} \\ \hline \hline
+\endfirsthead
+ \caption{Structure of table purchase (continued)} \\ 
+ \hline \multicolumn{1}{|c|}{\textbf{Column}} & \multicolumn{1}{|c|}{\textbf{Type}} & \multicolumn{1}{|c|}{\textbf{Null}} & \multicolumn{1}{|c|}{\textbf{Default}} & \multicolumn{1}{|c|}{\textbf{Links to}} & \multicolumn{1}{|c|}{\textbf{Comments}} & \multicolumn{1}{|c|}{\textbf{MIME}} \\ \hline \hline \endhead \endfoot 
+\textbf{\textit{purchase\_ID}} & int(11) & No &  &  &  &  \\ \hline 
+time\_stamp & datetime & No &  &  &  &  \\ \hline 
+username & varchar(40) & No &  & users (username) &  &  \\ \hline 
+fee & double & No &  &  &  &  \\ \hline 
+type & varchar(10) & No &  &  &  &  \\ \hline 
+ \end{longtable}
+
+%
+% Data: purchase
+%
+ \begin{longtable}{|l|l|l|l|l|} 
+ \hline \endhead \hline \endfoot \hline 
+ \caption{Content of table purchase} \label{tab:purchase-data} \\\hline \multicolumn{1}{|c|}{\textbf{purchase\_ID}} & \multicolumn{1}{|c|}{\textbf{time\_stamp}} & \multicolumn{1}{|c|}{\textbf{username}} & \multicolumn{1}{|c|}{\textbf{fee}} & \multicolumn{1}{|c|}{\textbf{type}} \\ \hline \hline  \endfirsthead 
+\caption{Content of table purchase (continued)} \\ \hline \multicolumn{1}{|c|}{\textbf{purchase\_ID}} & \multicolumn{1}{|c|}{\textbf{time\_stamp}} & \multicolumn{1}{|c|}{\textbf{username}} & \multicolumn{1}{|c|}{\textbf{fee}} & \multicolumn{1}{|c|}{\textbf{type}} \\ \hline \hline \endhead \endfoot
+5 & 2015-12-04 04:13:43 & lenmor & 2.75 & Single \\ \hline 
+6 & 2015-12-04 04:13:44 & lenmor & 2.75 & Single \\ \hline 
+7 & 2015-12-04 04:13:46 & lenmor & 11 & Booklet \\ \hline 
+8 & 2015-12-04 04:13:48 & lenmor & 2.75 & Single \\ \hline 
+9 & 2015-12-04 04:21:13 & lenmor & 11 & Booklet \\ \hline 
+10 & 2015-12-04 04:21:17 & lenmor & 11 & Booklet \\ \hline 
+11 & 2015-12-04 04:21:19 & lenmor & 2.75 & Single \\ \hline 
+12 & 2015-12-04 04:21:21 & lenmor & 11 & Booklet \\ \hline 
+13 & 2015-12-04 06:30:51 & lenmor & 2.75 & Single \\ \hline 
+14 & 2015-12-04 09:47:02 & Demostenis & 2.75 & Single \\ \hline 
+15 & 2015-12-04 09:47:04 & Demostenis & 2.75 & Single \\ \hline 
+16 & 2015-12-04 09:47:04 & Demostenis & 2.75 & Single \\ \hline 
+17 & 2015-12-04 09:47:05 & Demostenis & 2.75 & Single \\ \hline 
+18 & 2015-12-04 09:47:05 & Demostenis & 2.75 & Single \\ \hline 
+19 & 2015-12-04 09:47:08 & Demostenis & 11 & Booklet \\ \hline 
+20 & 2015-12-04 09:47:08 & Demostenis & 2.75 & Single \\ \hline 
+21 & 2015-12-04 09:47:08 & Demostenis & 2.75 & Single \\ \hline 
+22 & 2015-12-04 09:47:13 & Demostenis & 2.75 & Single \\ \hline 
+23 & 2015-12-04 09:47:14 & Demostenis & 2.75 & Single \\ \hline 
+24 & 2015-12-04 09:47:29 & Demostenis & 11 & Booklet \\ \hline 
+25 & 2015-12-04 10:20:49 & jachan & 11 & Booklet \\ \hline 
+26 & 2015-12-04 10:23:36 & jachan & 11 & Booklet \\ \hline 
+27 & 2015-12-04 10:23:40 & jachan & 11 & Booklet \\ \hline 
+28 & 2015-12-04 10:27:52 & stephc & 4.5 & Single \\ \hline 
+29 & 2015-12-04 10:27:56 & stephc & 4.5 & Single \\ \hline 
+30 & 2015-12-04 10:27:58 & stephc & 4.5 & Single \\ \hline 
+31 & 2015-12-04 10:27:59 & stephc & 18.5 & Booklet \\ \hline 
+33 & 2015-12-04 10:30:18 & mandymm & 6.5 & Single \\ \hline 
+34 & 2015-12-04 10:30:21 & mandymm & 25.75 & Booklet \\ \hline 
+35 & 2015-12-04 10:40:47 & marie23 & 3.25 & Single \\ \hline 
+36 & 2015-12-04 10:40:49 & marie23 & 13 & Booklet \\ \hline 
+37 & 2015-12-04 10:40:54 & marie23 & 13 & Booklet \\ \hline 
+38 & 2015-12-04 10:40:55 & marie23 & 3.25 & Single \\ \hline 
+ \end{longtable}
+
+%
+% Structure: stations
+%
+ \begin{longtable}{|l|c|c|c|l|l|l|} 
+ \caption{Structure of table stations} \label{tab:stations-structure} \\
+ \hline \multicolumn{1}{|c|}{\textbf{Column}} & \multicolumn{1}{|c|}{\textbf{Type}} & \multicolumn{1}{|c|}{\textbf{Null}} & \multicolumn{1}{|c|}{\textbf{Default}} & \multicolumn{1}{|c|}{\textbf{Links to}} & \multicolumn{1}{|c|}{\textbf{Comments}} & \multicolumn{1}{|c|}{\textbf{MIME}} \\ \hline \hline
+\endfirsthead
+ \caption{Structure of table stations (continued)} \\ 
+ \hline \multicolumn{1}{|c|}{\textbf{Column}} & \multicolumn{1}{|c|}{\textbf{Type}} & \multicolumn{1}{|c|}{\textbf{Null}} & \multicolumn{1}{|c|}{\textbf{Default}} & \multicolumn{1}{|c|}{\textbf{Links to}} & \multicolumn{1}{|c|}{\textbf{Comments}} & \multicolumn{1}{|c|}{\textbf{MIME}} \\ \hline \hline \endhead \endfoot 
+line & varchar(30) & No &  &  &  &  \\ \hline 
+\textbf{\textit{station}} & varchar(30) & No &  &  &  &  \\ \hline 
+ \end{longtable}
+
+%
+% Data: stations
+%
+ \begin{longtable}{|l|l|} 
+ \hline \endhead \hline \endfoot \hline 
+ \caption{Content of table stations} \label{tab:stations-data} \\\hline \multicolumn{1}{|c|}{\textbf{line}} & \multicolumn{1}{|c|}{\textbf{station}} \\ \hline \hline  \endfirsthead 
+\caption{Content of table stations (continued)} \\ \hline \multicolumn{1}{|c|}{\textbf{line}} & \multicolumn{1}{|c|}{\textbf{station}} \\ \hline \hline \endhead \endfoot
+Vaudreuil-Hudson & Baie-D'Urfe \\ \hline 
+Vaudreuil-Hudson & Beaconsfield \\ \hline 
+Vaudreuil-Hudson & Beaurepaire \\ \hline 
+Deux-Montagnes & Bois-Franc \\ \hline 
+Deux-Montagnes & Canora \\ \hline 
+Vaudreuil-Hudson & Cedar Park \\ \hline 
+Deux-Montagnes & Deux-Montagnes \\ \hline 
+Vaudreuil-Hudson & Dorion \\ \hline 
+Vaudreuil-Hudson & Dorval \\ \hline 
+Deux-Montagnes & Du Ruisseau \\ \hline 
+Deux-Montagnes & Gare Centrale \\ \hline 
+Deux-Montagnes & Grand-Moulin \\ \hline 
+Vaudreuil-Hudson & Hudson \\ \hline 
+Deux-Montagnes & Ile-Bigras \\ \hline 
+Vaudreuil-Hudson & Ile-Perrot \\ \hline 
+Vaudreuil-Hudson & Lachine \\ \hline 
+Vaudreuil-Hudson & Lucien-L'Allier \\ \hline 
+Deux-Montagnes & Mont-Royal \\ \hline 
+Deux-Montagnes & Montpelier \\ \hline 
+Vaudreuil-Hudson & Montreal-Ouest \\ \hline 
+Vaudreuil-Hudson & Pincourtâ€“Terrasse-Vaudreuil \\ \hline 
+Vaudreuil-Hudson & Pine Beach \\ \hline 
+Vaudreuil-Hudson & Pointe-Claire \\ \hline 
+Deux-Montagnes & Roxboro-Pierrefonds \\ \hline 
+Deux-Montagnes & Saint-Dorothee \\ \hline 
+Vaudreuil-Hudson & Sainte-Anne-de-Bellevue \\ \hline 
+Deux-Montagnes & Sunnybrooke \\ \hline 
+Vaudreuil-Hudson & Valois \\ \hline 
+Vaudreuil-Hudson & Vaudreuil \\ \hline 
+Vaudreuil-Hudson & Vendome \\ \hline 
+ \end{longtable}
+
+%
+% Structure: times
+%
+ \begin{longtable}{|l|c|c|c|l|l|l|} 
+ \caption{Structure of table times} \label{tab:times-structure} \\
+ \hline \multicolumn{1}{|c|}{\textbf{Column}} & \multicolumn{1}{|c|}{\textbf{Type}} & \multicolumn{1}{|c|}{\textbf{Null}} & \multicolumn{1}{|c|}{\textbf{Default}} & \multicolumn{1}{|c|}{\textbf{Links to}} & \multicolumn{1}{|c|}{\textbf{Comments}} & \multicolumn{1}{|c|}{\textbf{MIME}} \\ \hline \hline
+\endfirsthead
+ \caption{Structure of table times (continued)} \\ 
+ \hline \multicolumn{1}{|c|}{\textbf{Column}} & \multicolumn{1}{|c|}{\textbf{Type}} & \multicolumn{1}{|c|}{\textbf{Null}} & \multicolumn{1}{|c|}{\textbf{Default}} & \multicolumn{1}{|c|}{\textbf{Links to}} & \multicolumn{1}{|c|}{\textbf{Comments}} & \multicolumn{1}{|c|}{\textbf{MIME}} \\ \hline \hline \endhead \endfoot 
+station & varchar(30) & No &  & stations (station) &  &  \\ \hline 
+direction & varchar(30) & No &  &  &  &  \\ \hline 
+times\_string & varchar(256) & No &  &  &  &  \\ \hline 
+ \end{longtable}
+
+%
+% Data: times
+%
+ \begin{longtable}{|l|l|l|} 
+ \hline \endhead \hline \endfoot \hline 
+ \caption{Content of table times} \label{tab:times-data} \\\hline \multicolumn{1}{|c|}{\textbf{station}} & \multicolumn{1}{|c|}{\textbf{direction}} & \multicolumn{1}{|c|}{\textbf{times\_string}} \\ \hline \hline  \endfirsthead 
+\caption{Content of table times (continued)} \\ \hline \multicolumn{1}{|c|}{\textbf{station}} & \multicolumn{1}{|c|}{\textbf{direction}} & \multicolumn{1}{|c|}{\textbf{times\_string}} \\ \hline \hline \endhead \endfoot
+Gare Centrale & Deux-Montagnes & 00h30,06h45,08h45,09h30,10h30,11h30,12h30,13h30,14h30,15h00,15h45,16h05,16h30,16h50,17h10,18h20,19h05,19h30,20h30,21h30,22h30,23h30,23h45,23h50,23h55 \\ \hline 
+Canora & Deux-Montagnes & 00h30,06h45,08h45,09h30,10h30,11h30,12h30,13h30,14h30,15h00,15h45,16h05,16h30,16h50,17h10,18h20,19h05,19h30,20h30,21h30,22h30,23h30,23h45,23h50,23h55 \\ \hline 
+Mont-Royal & Deux-Montagnes & 00h30,06h45,08h45,09h30,10h30,11h30,12h30,13h30,14h30,15h00,15h45,16h05,16h30,16h50,17h10,18h20,19h05,19h30,20h30,21h30,22h30,23h30,23h45,23h50,23h55 \\ \hline 
+Montpelier & Deux-Montagnes & 00h30,06h45,08h45,09h30,10h30,11h30,12h30,13h30,14h30,15h00,15h45,16h05,16h30,16h50,17h10,18h20,19h05,19h30,20h30,21h30,22h30,23h30,23h45,23h50,23h55 \\ \hline 
+Du Ruisseau & Deux-Montagnes & 00h30,06h45,08h45,09h30,10h30,11h30,12h30,13h30,14h30,15h00,15h45,16h05,16h30,16h50,17h10,18h20,19h05,19h30,20h30,21h30,22h30,23h30,23h45,23h50,23h55 \\ \hline 
+Bois-Franc & Deux-Montagnes & 00h30,06h45,08h45,09h30,10h30,11h30,12h30,13h30,14h30,15h00,15h45,16h05,16h30,16h50,17h10,18h20,19h05,19h30,20h30,21h30,22h30,23h30,23h45,23h50,23h55 \\ \hline 
+Sunnybrooke & Deux-Montagnes & 00h30,06h45,08h45,09h30,10h30,11h30,12h30,13h30,14h30,15h00,15h45,16h05,16h30,16h50,17h10,18h20,19h05,19h30,20h30,21h30,22h30,23h30,23h45,23h50,23h55 \\ \hline 
+Roxboro-Pierrefonds & Deux-Montagnes & 00h30,06h45,08h45,09h30,10h30,11h30,12h30,13h30,14h30,15h00,15h45,16h05,16h30,16h50,17h10,18h20,19h05,19h30,20h30,21h30,22h30,23h30,23h45,23h50,23h55 \\ \hline 
+Ile-Bigras & Deux-Montagnes & 00h30,06h45,08h45,09h30,10h30,11h30,12h30,13h30,14h30,15h00,15h45,16h05,16h30,16h50,17h10,18h20,19h05,19h30,20h30,21h30,22h30,23h30,23h45,23h50,23h55 \\ \hline 
+Saint-Dorothee & Deux-Montagnes & 00h30,06h45,08h45,09h30,10h30,11h30,12h30,13h30,14h30,15h00,15h45,16h05,16h30,16h50,17h10,18h20,19h05,19h30,20h30,21h30,22h30,23h30,23h45,23h50,23h55 \\ \hline 
+Grand-Moulin & Deux-Montagnes & 00h30,06h45,08h45,09h30,10h30,11h30,12h30,13h30,14h30,15h00,15h45,16h05,16h30,16h50,17h10,18h20,19h05,19h30,20h30,21h30,22h30,23h30,23h45,23h50,23h55 \\ \hline 
+Deux-Montagnes & Gare-Centrale & 00h35,06h40,08h50,09h45,10h45,11h25,12h40,13h35,14h35,15h05,15h50,16h10,16h40,16h45,17h20,18h30,19h15,19h35,20h40,21h40,22h35,22h40,23h10,23h40,23h55 \\ \hline 
+Grand-Moulin & Gare-Centrale & 00h35,06h40,08h50,09h45,10h45,11h25,12h40,13h35,14h35,15h05,15h50,16h10,16h40,16h45,17h20,18h30,19h15,19h35,20h40,21h40,22h35,22h40,23h10,23h40,23h55 \\ \hline 
+Saint-Dorothee & Gare-Centrale & 00h35,06h40,08h50,09h45,10h45,11h25,12h40,13h35,14h35,15h05,15h50,16h10,16h40,16h45,17h20,18h30,19h15,19h35,20h40,21h40,22h35,22h40,23h10,23h40,23h55 \\ \hline 
+Ile-Bigras & Gare-Centrale & 00h35,06h40,08h50,09h45,10h45,11h25,12h40,13h35,14h35,15h05,15h50,16h10,16h40,16h45,17h20,18h30,19h15,19h35,20h40,21h40,22h35,22h40,23h10,23h40,23h55 \\ \hline 
+Roxboro-Pierrefonds & Gare-Centrale & 00h35,06h40,08h50,09h45,10h45,11h25,12h40,13h35,14h35,15h05,15h50,16h10,16h40,16h45,17h20,18h30,19h15,19h35,20h40,21h40,22h35,22h40,23h10,23h40,23h55 \\ \hline 
+Sunnybrooke & Gare-Centrale & 00h35,06h40,08h50,09h45,10h45,11h25,12h40,13h35,14h35,15h05,15h50,16h10,16h40,16h45,17h20,18h30,19h15,19h35,20h40,21h40,22h35,22h40,23h10,23h40,23h55 \\ \hline 
+Bois-Franc & Gare-Centrale & 00h35,06h40,08h50,09h45,10h45,11h25,12h40,13h35,14h35,15h05,15h50,16h10,16h40,16h45,17h20,18h30,19h15,19h35,20h40,21h40,22h35,22h40,23h10,23h40,23h55 \\ \hline 
+Du Ruisseau & Gare-Centrale & 00h35,06h40,08h50,09h45,10h45,11h25,12h40,13h35,14h35,15h05,15h50,16h10,16h40,16h45,17h20,18h30,19h15,19h35,20h40,21h40,22h35,22h40,23h10,23h40,23h55 \\ \hline 
+Montpelier & Gare-Centrale & 00h35,06h40,08h50,09h45,10h45,11h25,12h40,13h35,14h35,15h05,15h50,16h10,16h40,16h45,17h20,18h30,19h15,19h35,20h40,21h40,22h35,22h40,23h10,23h40,23h55 \\ \hline 
+Mont-Royal & Gare-Centrale & 00h35,06h40,08h50,09h45,10h45,11h25,12h40,13h35,14h35,15h05,15h50,16h10,16h40,16h45,17h20,18h30,19h15,19h35,20h40,21h40,22h35,22h40,23h10,23h40,23h55 \\ \hline 
+Canora & Gare-Centrale & 00h35,06h40,08h50,09h45,10h45,11h25,12h40,13h35,14h35,15h05,15h50,16h10,16h40,16h45,17h20,18h30,19h15,19h35,20h40,21h40,22h35,22h40,23h10,23h40,23h55 \\ \hline 
+Lucien-L'Allier & Hudson & 00h30,06h45,08h45,09h30,10h30,11h30,12h30,13h30,14h30,15h00,15h45,16h05,16h30,16h50,17h10,18h20,19h05,19h30,20h30,21h30,22h30,23h30,23h45,23h50,23h55 \\ \hline 
+Vendome & Hudson & 00h30,06h45,08h45,09h30,10h30,11h30,12h30,13h30,14h30,15h00,15h45,16h05,16h30,16h50,17h10,18h20,19h05,19h30,20h30,21h30,22h30,23h30,23h45,23h50,23h55 \\ \hline 
+Montreal-Ouest & Hudson & 00h30,06h45,08h45,09h30,10h30,11h30,12h30,13h30,14h30,15h00,15h45,16h05,16h30,16h50,17h10,18h20,19h05,19h30,20h30,21h30,22h30,23h30,23h45,23h50,23h55 \\ \hline 
+Lachine & Hudson & 00h30,06h45,08h45,09h30,10h30,11h30,12h30,13h30,14h30,15h00,15h45,16h05,16h30,16h50,17h10,18h20,19h05,19h30,20h30,21h30,22h30,23h30,23h45,23h50,23h55 \\ \hline 
+Dorval & Hudson & 00h30,06h45,08h45,09h30,10h30,11h30,12h30,13h30,14h30,15h00,15h45,16h05,16h30,16h50,17h10,18h20,19h05,19h30,20h30,21h30,22h30,23h30,23h45,23h50,23h55 \\ \hline 
+Pine Beach & Hudson & 00h30,06h45,08h45,09h30,10h30,11h30,12h30,13h30,14h30,15h00,15h45,16h05,16h30,16h50,17h10,18h20,19h05,19h30,20h30,21h30,22h30,23h30,23h45,23h50,23h55 \\ \hline 
+Valois & Hudson & 00h30,06h45,08h45,09h30,10h30,11h30,12h30,13h30,14h30,15h00,15h45,16h05,16h30,16h50,17h10,18h20,19h05,19h30,20h30,21h30,22h30,23h30,23h45,23h50,23h55 \\ \hline 
+Pointe-Claire & Hudson & 00h30,06h45,08h45,09h30,10h30,11h30,12h30,13h30,14h30,15h00,15h45,16h05,16h30,16h50,17h10,18h20,19h05,19h30,20h30,21h30,22h30,23h30,23h45,23h50,23h55 \\ \hline 
+Cedar Park & Hudson & 00h30,06h45,08h45,09h30,10h30,11h30,12h30,13h30,14h30,15h00,15h45,16h05,16h30,16h50,17h10,18h20,19h05,19h30,20h30,21h30,22h30,23h30,23h45,23h50,23h55 \\ \hline 
+Beaconsfield & Hudson & 00h30,06h45,08h45,09h30,10h30,11h30,12h30,13h30,14h30,15h00,15h45,16h05,16h30,16h50,17h10,18h20,19h05,19h30,20h30,21h30,22h30,23h30,23h45,23h50,23h55 \\ \hline 
+Beaurepaire & Hudson & 00h30,06h45,08h45,09h30,10h30,11h30,12h30,13h30,14h30,15h00,15h45,16h05,16h30,16h50,17h10,18h20,19h05,19h30,20h30,21h30,22h30,23h30,23h45,23h50,23h55 \\ \hline 
+Baie-D'Urfe & Hudson & 00h30,06h45,08h45,09h30,10h30,11h30,12h30,13h30,14h30,15h00,15h45,16h05,16h30,16h50,17h10,18h20,19h05,19h30,20h30,21h30,22h30,23h30,23h45,23h50,23h55 \\ \hline 
+Sainte-Anne-de-Bellevue & Hudson & 00h30,06h45,08h45,09h30,10h30,11h30,12h30,13h30,14h30,15h00,15h45,16h05,16h30,16h50,17h10,18h20,19h05,19h30,20h30,21h30,22h30,23h30,23h45,23h50,23h55 \\ \hline 
+Ile-Perrot & Hudson & 00h30,06h45,08h45,09h30,10h30,11h30,12h30,13h30,14h30,15h00,15h45,16h05,16h30,16h50,17h10,18h20,19h05,19h30,20h30,21h30,22h30,23h30,23h45,23h50,23h55 \\ \hline 
+Pincourtâ€“Terrasse-Vaudreuil & Hudson & 00h30,06h45,08h45,09h30,10h30,11h30,12h30,13h30,14h30,15h00,15h45,16h05,16h30,16h50,17h10,18h20,19h05,19h30,20h30,21h30,22h30,23h30,23h45,23h50,23h55 \\ \hline 
+Dorion & Hudson & 00h30,06h45,08h45,09h30,10h30,11h30,12h30,13h30,14h30,15h00,15h45,16h05,16h30,16h50,17h10,18h20,19h05,19h30,20h30,21h30,22h30,23h30,23h45,23h50,23h55 \\ \hline 
+Vaudreuil & Hudson & 00h30,06h45,08h45,09h30,10h30,11h30,12h30,13h30,14h30,15h00,15h45,16h05,16h30,16h50,17h10,18h20,19h05,19h30,20h30,21h30,22h30,23h30,23h45,23h50,23h55 \\ \hline 
+Hudson & Lucien-L'Allier & 00h35,06h40,08h50,09h45,10h45,11h25,12h40,13h35,14h35,15h05,15h50,16h10,16h40,16h45,17h20,18h30,19h15,19h35,20h40,21h40,22h35,22h40,23h10,23h40,23h55 \\ \hline 
+Vaudreuil & Lucien-L'Allier & 00h35,06h40,08h50,09h45,10h45,11h25,12h40,13h35,14h35,15h05,15h50,16h10,16h40,16h45,17h20,18h30,19h15,19h35,20h40,21h40,22h35,22h40,23h10,23h40,23h55 \\ \hline 
+Dorion & Lucien-L'Allier & 00h35,06h40,08h50,09h45,10h45,11h25,12h40,13h35,14h35,15h05,15h50,16h10,16h40,16h45,17h20,18h30,19h15,19h35,20h40,21h40,22h35,22h40,23h10,23h40,23h55 \\ \hline 
+Pincourtâ€“Terrasse-Vaudreuil & Lucien-L'Allier & 00h35,06h40,08h50,09h45,10h45,11h25,12h40,13h35,14h35,15h05,15h50,16h10,16h40,16h45,17h20,18h30,19h15,19h35,20h40,21h40,22h35,22h40,23h10,23h40,23h55 \\ \hline 
+Ile-Perrot & Lucien-L'Allier & 00h35,06h40,08h50,09h45,10h45,11h25,12h40,13h35,14h35,15h05,15h50,16h10,16h40,16h45,17h20,18h30,19h15,19h35,20h40,21h40,22h35,22h40,23h10,23h40,23h55 \\ \hline 
+Sainte-Anne-de-Bellevue & Lucien-L'Allier & 00h35,06h40,08h50,09h45,10h45,11h25,12h40,13h35,14h35,15h05,15h50,16h10,16h40,16h45,17h20,18h30,19h15,19h35,20h40,21h40,22h35,22h40,23h10,23h40,23h55 \\ \hline 
+Baie-D'Urfe & Lucien-L'Allier & 00h35,06h40,08h50,09h45,10h45,11h25,12h40,13h35,14h35,15h05,15h50,16h10,16h40,16h45,17h20,18h30,19h15,19h35,20h40,21h40,22h35,22h40,23h10,23h40,23h55 \\ \hline 
+Beaurepaire & Lucien-L'Allier & 00h35,06h40,08h50,09h45,10h45,11h25,12h40,13h35,14h35,15h05,15h50,16h10,16h40,16h45,17h20,18h30,19h15,19h35,20h40,21h40,22h35,22h40,23h10,23h40,23h55 \\ \hline 
+Beaconsfield & Lucien-L'Allier & 00h35,06h40,08h50,09h45,10h45,11h25,12h40,13h35,14h35,15h05,15h50,16h10,16h40,16h45,17h20,18h30,19h15,19h35,20h40,21h40,22h35,22h40,23h10,23h40,23h55 \\ \hline 
+Cedar Park & Lucien-L'Allier & 00h35,06h40,08h50,09h45,10h45,11h25,12h40,13h35,14h35,15h05,15h50,16h10,16h40,16h45,17h20,18h30,19h15,19h35,20h40,21h40,22h35,22h40,23h10,23h40,23h55 \\ \hline 
+Pointe-Claire & Lucien-L'Allier & 00h35,06h40,08h50,09h45,10h45,11h25,12h40,13h35,14h35,15h05,15h50,16h10,16h40,16h45,17h20,18h30,19h15,19h35,20h40,21h40,22h35,22h40,23h10,23h40,23h55 \\ \hline 
+Valois & Lucien-L'Allier & 00h35,06h40,08h50,09h45,10h45,11h25,12h40,13h35,14h35,15h05,15h50,16h10,16h40,16h45,17h20,18h30,19h15,19h35,20h40,21h40,22h35,22h40,23h10,23h40,23h55 \\ \hline 
+Pine Beach & Lucien-L'Allier & 00h35,06h40,08h50,09h45,10h45,11h25,12h40,13h35,14h35,15h05,15h50,16h10,16h40,16h45,17h20,18h30,19h15,19h35,20h40,21h40,22h35,22h40,23h10,23h40,23h55 \\ \hline 
+Dorval & Lucien-L'Allier & 00h35,06h40,08h50,09h45,10h45,11h25,12h40,13h35,14h35,15h05,15h50,16h10,16h40,16h45,17h20,18h30,19h15,19h35,20h40,21h40,22h35,22h40,23h10,23h40,23h55 \\ \hline 
+Lachine & Lucien-L'Allier & 00h35,06h40,08h50,09h45,10h45,11h25,12h40,13h35,14h35,15h05,15h50,16h10,16h40,16h45,17h20,18h30,19h15,19h35,20h40,21h40,22h35,22h40,23h10,23h40,23h55 \\ \hline 
+Montreal-Ouest & Lucien-L'Allier & 00h35,06h40,08h50,09h45,10h45,11h25,12h40,13h35,14h35,15h05,15h50,16h10,16h40,16h45,17h20,18h30,19h15,19h35,20h40,21h40,22h35,22h40,23h10,23h40,23h55 \\ \hline 
+Vendome & Lucien-L'Allier & 00h35,06h40,08h50,09h45,10h45,11h25,12h40,13h35,14h35,15h05,15h50,16h10,16h40,16h45,17h20,18h30,19h15,19h35,20h40,21h40,22h35,22h40,23h10,23h40,23h55 \\ \hline 
+Lucien-L'Allier & Candiac & 00h30,06h45,08h45,09h30,10h30,11h30,12h30,13h30,14h30,15h00,15h45,16h05,16h30,16h50,17h10,18h20,19h05,19h30,20h30,21h30,22h30,23h30,23h45,23h50,23h55 \\ \hline 
+Vendome & Candiac & 00h30,06h45,08h45,09h30,10h30,11h30,12h30,13h30,14h30,15h00,15h45,16h05,16h30,16h50,17h10,18h20,19h05,19h30,20h30,21h30,22h30,23h30,23h45,23h50,23h55 \\ \hline 
+Montreal-Ouest & Candiac & 00h30,06h45,08h45,09h30,10h30,11h30,12h30,13h30,14h30,15h00,15h45,16h05,16h30,16h50,17h10,18h20,19h05,19h30,20h30,21h30,22h30,23h30,23h45,23h50,23h55 \\ \hline 
+Montreal-Ouest & Lucien-L'Allier & 00h35,06h40,08h50,09h45,10h45,11h25,12h40,13h35,14h35,15h05,15h50,16h10,16h40,16h45,17h20,18h30,19h15,19h35,20h40,21h40,22h35,22h40,23h10,23h40,23h55 \\ \hline 
+Vendome & Lucien-L'Allier & 00h35,06h40,08h50,09h45,10h45,11h25,12h40,13h35,14h35,15h05,15h50,16h10,16h40,16h45,17h20,18h30,19h15,19h35,20h40,21h40,22h35,22h40,23h10,23h40,23h55 \\ \hline 
+ \end{longtable}
+
+%
+% Structure: users
+%
+ \begin{longtable}{|l|c|c|c|l|l|l|} 
+ \caption{Structure of table users} \label{tab:users-structure} \\
+ \hline \multicolumn{1}{|c|}{\textbf{Column}} & \multicolumn{1}{|c|}{\textbf{Type}} & \multicolumn{1}{|c|}{\textbf{Null}} & \multicolumn{1}{|c|}{\textbf{Default}} & \multicolumn{1}{|c|}{\textbf{Links to}} & \multicolumn{1}{|c|}{\textbf{Comments}} & \multicolumn{1}{|c|}{\textbf{MIME}} \\ \hline \hline
+\endfirsthead
+ \caption{Structure of table users (continued)} \\ 
+ \hline \multicolumn{1}{|c|}{\textbf{Column}} & \multicolumn{1}{|c|}{\textbf{Type}} & \multicolumn{1}{|c|}{\textbf{Null}} & \multicolumn{1}{|c|}{\textbf{Default}} & \multicolumn{1}{|c|}{\textbf{Links to}} & \multicolumn{1}{|c|}{\textbf{Comments}} & \multicolumn{1}{|c|}{\textbf{MIME}} \\ \hline \hline \endhead \endfoot 
+firstname & varchar(30) & No &  &  &  &  \\ \hline 
+lastname & varchar(30) & No &  &  &  &  \\ \hline 
+address & varchar(50) & No &  &  &  &  \\ \hline 
+city & varchar(30) & No &  &  &  &  \\ \hline 
+province & varchar(20) & No &  &  &  &  \\ \hline 
+postal & varchar(10) & No &  &  &  &  \\ \hline 
+email & varchar(20) & No &  &  &  &  \\ \hline 
+phone1 & varchar(12) & No &  &  &  &  \\ \hline 
+phone2 & varchar(12) & Yes & NULL &  &  &  \\ \hline 
+birthday & date & No &  &  &  &  \\ \hline 
+\textbf{\textit{username}} & varchar(20) & No &  &  &  &  \\ \hline 
+password & varchar(20) & No &  &  &  &  \\ \hline 
+cpassword & varchar(20) & No &  &  &  &  \\ \hline 
+zone & tinyint(1) & No &  &  &  &  \\ \hline 
+carpool & tinyint(1) & Yes & NULL &  &  &  \\ \hline 
+carpoolBuddies & text & Yes & NULL &  &  &  \\ \hline 
+ \end{longtable}
+
+%
+% Data: users
+%
+ \begin{longtable}{|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|} 
+ \hline \endhead \hline \endfoot \hline 
+ \caption{Content of table users} \label{tab:users-data} \\\hline \multicolumn{1}{|c|}{\textbf{firstname}} & \multicolumn{1}{|c|}{\textbf{lastname}} & \multicolumn{1}{|c|}{\textbf{address}} & \multicolumn{1}{|c|}{\textbf{city}} & \multicolumn{1}{|c|}{\textbf{province}} & \multicolumn{1}{|c|}{\textbf{postal}} & \multicolumn{1}{|c|}{\textbf{email}} & \multicolumn{1}{|c|}{\textbf{phone1}} & \multicolumn{1}{|c|}{\textbf{phone2}} & \multicolumn{1}{|c|}{\textbf{birthday}} & \multicolumn{1}{|c|}{\textbf{username}} & \multicolumn{1}{|c|}{\textbf{password}} & \multicolumn{1}{|c|}{\textbf{cpassword}} & \multicolumn{1}{|c|}{\textbf{zone}} & \multicolumn{1}{|c|}{\textbf{carpool}} & \multicolumn{1}{|c|}{\textbf{carpoolBuddies}} \\ \hline \hline  \endfirsthead 
+\caption{Content of table users (continued)} \\ \hline \multicolumn{1}{|c|}{\textbf{firstname}} & \multicolumn{1}{|c|}{\textbf{lastname}} & \multicolumn{1}{|c|}{\textbf{address}} & \multicolumn{1}{|c|}{\textbf{city}} & \multicolumn{1}{|c|}{\textbf{province}} & \multicolumn{1}{|c|}{\textbf{postal}} & \multicolumn{1}{|c|}{\textbf{email}} & \multicolumn{1}{|c|}{\textbf{phone1}} & \multicolumn{1}{|c|}{\textbf{phone2}} & \multicolumn{1}{|c|}{\textbf{birthday}} & \multicolumn{1}{|c|}{\textbf{username}} & \multicolumn{1}{|c|}{\textbf{password}} & \multicolumn{1}{|c|}{\textbf{cpassword}} & \multicolumn{1}{|c|}{\textbf{zone}} & \multicolumn{1}{|c|}{\textbf{carpool}} & \multicolumn{1}{|c|}{\textbf{carpoolBuddies}} \\ \hline \hline \endhead \endfoot
+Annette & Couto & 446 Spring Garden & Sao Paulo & Quebec & H9B 1S8 & acouto@lbpsb.qc.ca & 514 673 6452 & 514 784 6424 & 1957-08-06 & acouto5 & 12345 & 12345 & 2 & 0 & \textit{NULL} \\ \hline 
+Carlod & Venturaq & 671 Grey Zone & Montreal & Quebec & H8Y 1C2 & ventura53@gmail.com & 514 724 9012 & 672 513 7214 & 1990-10-11 & ceventura2 & 1652 & 1652 & 3 & 1 & \textit{NULL} \\ \hline 
+what & what & whatff & what & no & a2n 3n2 & 0hewr@xxx.com & 234 234 2344 &  & 2005-08-11 & Demostenis & abc123 & abc123 & 1 & 0 & \textit{NULL} \\ \hline 
+Dexter & Moore & 8907 SAint-Cristophe & Montreal & QC & P4V 8N9 & mm@m.com & 123 111 1114 &  & 1990-01-04 & dexy12 & 123 & 123 & 3 & 1 & jachan,lebron \\ \hline 
+Mila & Hernandez & 73 Hot & Chicago & Illinois & J8U 7V5 & hende24@gmail.com & 907 873 6723 & 835 723 7823 & 2000-02-02 & hedley1234 & abcd5678 & abcd5678 & 3 & 0 & \textit{NULL} \\ \hline 
+Owen & Hernandez & 73 Hot & Chicago & Illinois & J8U 7V5 & hende24@gmail.com & 907 873 6723 & 835 723 7823 & 1943-06-28 & hende8923 & 6789 & 6789 & 3 & 1 & \textit{NULL} \\ \hline 
+sexy & mama & 1234 mybutt & you & on & M3B 4B7 & sexy@hotmail.com & 514 322 3232 & 400 232 2495 & 2004-12-08 & heysexy & lolol & lolol & 1 & 1 & \textit{NULL} \\ \hline 
+Jackie & Chan & 0912 Road & Road & RD & A1B 2C3 & l@l.com & 123 123 1234 & 123 123 1234 & 2003-03-03 & jachan & abc1234 & abc1234 & 1 & 1 & \textit{NULL} \\ \hline 
+Jorge & Correira & 621 Grit Bot & Toronto & Ontario & K9G 5Y7 & jorgebut@hotmail.com & 934 752 9814 & 934 671 7824 & 1964-03-05 & jorgeb65 & 1091 & 1091 & 3 & 1 & \textit{NULL} \\ \hline 
+Kyle & Ventura & 152 Athenes & Rio & Montreal & J8T 5D2 & vent62@yahoo.com & 901 521 7612 & 901 672 7623 & 1998-12-11 & kyle12 & 1761 & 1761 & 3 & 0 & \textit{NULL} \\ \hline 
+Miranda & Larroza & 87 Mentana & Bramptom & Montreal & K9D 5S3 & larry52@gmail.com & 903 762 6723 & 904 672 4523 & 1992-06-12 & larr671 & 8901 & 8901 & 1 & 1 & \textit{NULL} \\ \hline 
+LeBron & James & 1234 Cleveland & Cleveland & Ohio & R2B 5Y5 & lb@gmail.com & 123 123 1234 & 123 123 1234 & 1991-01-07 & lebron & abc123 & abc123 & 1 & 1 & \textit{NULL} \\ \hline 
+Lenny & Dimanalata & 4015 Saint-Andre & Montreal & QC & H2L 3W2 & lenny@l.com & 123 123 1234 & 123 123 1234 & 1999-05-03 & lenmor & markoj2049 & markoj2049 & 1 & 1 & hende8923,heysexy,jachan \\ \hline 
+Mandynga & Moore & 8907 SAint-Cristophe & Montreal & QC & P4V 8N9 & mm@m.com & 123 111 1114 &  & 1990-01-04 & mandymm & 1234 & 1234 & 3 & 1 & \textit{NULL} \\ \hline 
+Marie & Digby & 4546 Golden State & GS2 & GS & A1B 2C3 & m@ma.com & 123 123 1234 &  & 2004-02-01 & marie23 & abc123 & abc123 & 2 & 1 & jorgeb65,larr671,lebron,lenmor \\ \hline 
+Maria & Magdalene & 188 Monny & Mon & QC & B7B 6H2 & l@l.cpp & 123 111 1111 &  & 1992-02-14 & peter34 & 123 & 123 & 3 & 0 & \textit{NULL} \\ \hline 
+marivi & Magdalene & 188 Monny & Mon & QC & B7B 6H2 & l@l.cpp & 123 111 1111 &  & 1992-02-14 & peter78 & 12345 & 12345 & 3 & 0 & \textit{NULL} \\ \hline 
+Mandy & Moore & 8907 SAint-Cristophe & Montreal & QC & P4V 8N9 & mm@m.com & 123 111 1114 &  & 1990-01-04 & polenta & asd & asd & 2 & 0 & \textit{NULL} \\ \hline 
+Mandy & Moore & 8907 SAint-Cristophe & Montreal & QC & P4V 8N9 & mm@m.com & 123 111 1114 &  & 1990-01-04 & polenta12 & 123 & 123 & 2 & 0 & \textit{NULL} \\ \hline 
+WAhahadsdsa & Hernandez & 73 Hot & Chicago & Illinois & J8U 7V5 & hende24@gmail.com & 907 873 6723 & 835 723 7823 & 2002-03-06 & rareqw123 & aaa & aaa & 3 & 1 & \textit{NULL} \\ \hline 
+Elise & Sanchez & 43 Fox & Pierrefonds & Ontario & N8Y 6F4 & eli82@gmail.com & 873 652 3412 & 762 651 6723 & 1993-06-14 & sanche54 & 8923 & 8923 & 3 & 1 & \textit{NULL} \\ \hline 
+Stephen & Curry & 4546 Golden State & GS & California & R2N 5Y6 & sc@gmail.com & 123 123 1234 & 123 123 1234 & 1977-03-10 & stephc & abc124 & abc124 & 1 & 1 & dexy12,hende8923,jorgeb65,larr671 \\ \hline 
+ \end{longtable}

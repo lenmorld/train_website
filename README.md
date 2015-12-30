@@ -6,22 +6,25 @@ Train website project for Web Programming (SOEN 287). It includes registration, 
 
 ##### Schedule & Next Train:
  - Requested information built from information stored on the server
- - Registration:
- Server side Validation
- Saving info to database
+ - Registration
+ - Server side Validation
+ - Saving info to database
+ 
+
 ##### Login/logout process
+
 ##### Carpooling Buddy:
  - Displaying list of possible candidates
 - Indicating which ones are already buddies
  - Removing some or all buddies
  - Adding buddies
  - Saving changes to database
-##### Buying tickets:
+ 
+
+##### Buying tickets
  - Accessing fare info from flat file
- - Submitting ticket request and storing to
- database
- - Displaying list of previously purchased
- fares, including the current purchase.
+ - Submitting ticket request and storing to database
+ - Displaying list of previously purchased fares, including the current purchase.
 
 ## Development Settings Used
 Used XAMPP, created a user for MySQL with all needed priviledges

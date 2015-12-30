@@ -3,7 +3,7 @@ Please use Firefox, if possible.
 
 Used XAMPP, created a user for MySQL with all needed priviledges
 username: lenmor
-password: markoj2049
+password: **********
 DB name: train
 
 If necessary, please see php/db_connect.php, and modify the server name, username and password

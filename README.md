@@ -4,7 +4,6 @@ Train website project for Web Programming (SOEN 287). It includes registration, 
 
 ## Objectives Accomplished 
 
-Assignment
 ##### Schedule & Next Train:
  - Requested information built from information stored on the server
  - Registration:

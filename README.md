@@ -50,7 +50,7 @@ using my laptop with XAMPP, if possible.
 
 #### Screenshots
 
-* ![alt text](https://github.com/lenmorld/train_website/tree/master/screenshots/before_purchase.JPG "Logo Title Text 1")
+* ![alt text](https://github.com/lenmorld/train_website/blob/master/screenshots/before_puchase.JPG/before_purchase.JPG "Logo Title Text 1")
 * ![alt text](https://github.com/lenmorld/train_website/tree/master/screenshots/home.JPG "Logo Title Text 1")
 * ![alt text](https://github.com/lenmorld/train_website/tree/master/screenshots/purchase.JPG "Logo Title Text 1")
 * ![alt text](https://github.com/lenmorld/train_website/tree/master/screenshots/registration.JPG "Logo Title Text 1")

@@ -19,7 +19,6 @@ Train website project for Web Programming (SOEN 287). It includes registration, 
  - Removing some or all buddies
  - Adding buddies
  - Saving changes to database
- 
 
 ##### Buying tickets
  - Accessing fare info from flat file
@@ -48,4 +47,14 @@ several dumps are generated in case one setting might not work
 In case it would not work, please let me know. 
 I will be willing to demo my work
 using my laptop with XAMPP, if possible.
+
+#### Screenshots
+
+* ![alt text](https://github.com/lenmorld/train_website/tree/master/screenshots/before_purchase.JPG "Logo Title Text 1")
+* ![alt text](https://github.com/lenmorld/train_website/tree/master/screenshots/home.JPG "Logo Title Text 1")
+* ![alt text](https://github.com/lenmorld/train_website/tree/master/screenshots/purchase.JPG "Logo Title Text 1")
+* ![alt text](https://github.com/lenmorld/train_website/tree/master/screenshots/registration.JPG "Logo Title Text 1")
+* ![alt text](https://github.com/lenmorld/train_website/tree/master/screenshots/schedule.JPG "Logo Title Text 1")
+
+
 
